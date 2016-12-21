@@ -1,0 +1,38 @@
+body{
+	font-family: 'Varela', sans-serif;
+    font-size: 14px;
+    background-color: #34495E;
+    background: url("../img/back.png");
+}
+/*---------Navigation Bar-------------*/
+.navbar{
+	background-color: #1A5276;
+	border-radius: 0 !important;
+}
+.navbar-toggle{
+	border-color: #fff !important;
+}
+.navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+#navbar-primary .navbar-nav { 
+  /*background: #ededed;*/
+  	width: 100%;
+  	text-align: center;
+  
+}
+#navbar-primary .navbar-nav li {
+   	display: inline-block;
+    float: none;
+}
+
+#navbar-primary .navbar-nav li a {
+	color: #fff;
+  	font-weight: 700;
+  	padding: 5px 30px;
+
+}
+#navbar-primary .navbar-nav li a:hover, #navbar-primary .navbar-nav li a:active{
+	background-color: transparent;
+	color: #000;
+}
